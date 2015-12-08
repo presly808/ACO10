@@ -68,9 +68,8 @@ public class DigitMain {
         if (operation.equals(compare)) {
             int comp = digit.comp(scanner.nextInt());
             if (comp == 0) System.out.println("Digits equals");
-            else System.out.println(comp +" is bigger");
+            else System.out.println(comp + " is bigger");
         }
-
 
 
     }
