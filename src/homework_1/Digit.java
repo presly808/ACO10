@@ -7,9 +7,9 @@ public class Digit {
         this.number = number;
     }
 
-    public int sum(int digit) {
+    public Digit sum(Digit digit) {
         int sum = digit + number;
-        return sum;
+        return new Digit(sum);
     }
 
     public int dif(int digit) {
